@@ -1,0 +1,41 @@
+header
+    .container-fluid.p-0
+        nav.navbar.navbar-expand-lg
+            a.navbar-brand(href='#')
+                i.fas.fa-book-reader.fa-2x.mx-3
+                | Books for bucks
+            button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarNav', aria-controls='navbarNav', aria-expanded='false', aria-label='Toggle navigation')
+                i.fas.fa-align-right.text-light
+            #navbarNav.collapse.navbar-collapse
+                .mr-auto
+                ul.navbar-nav
+                    li.nav-item.active
+                        a.nav-link(href='#')
+                            | HOME
+                            span.sr-only (current)
+                    li.nav-item
+                        a.nav-link(href='#') COURSE
+                    li.nav-item
+                        a.nav-link(href='#') PRICE
+                    li.nav-item.dropdown
+                        .dropdown
+                            a.nav-link(href='#') PAGES
+                            .dropdown-content
+                                a(href='#') Generic
+                                a(href='#') Element
+                    li.nav-item
+                        a.nav-link(href='#') FACT
+                    li.nav-item
+                        a.nav-link(href='#') ABOUT
+    .container.text-center
+        .row
+            .col-md-7.col-sm-12.text-white
+                h6 AUTHOR: DAILY TUITION
+                h1 EXCITING ADVENTURE
+                p
+                    | Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere accusamus eum dignissimos ipsa sequi
+                    | expedita.
+                button.btn.btn-light.px-5.py-2.primary-btn
+                    | By now for $5.99
+            .col-md-5.col-sm-12.h-25
+                img(src='assets/img/header-img.png', alt='Book')

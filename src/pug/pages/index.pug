@@ -1,0 +1,163 @@
+extends ../layout/base
+
+block main
+    section.section-1
+        .container.text-center
+            .row
+                .col-md-6.col-12
+                    .pray
+                        img(src='assets/img/pexels-photo-1904769.jpeg', alt='Pray')
+                .col-md-6.col-12
+                    .panel.text-left
+                        h1 Mr. Devid Smith
+                        p.pt-4
+                            | Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere iure adipisci harum ducimus
+                            | accusantium, repudiandae aperiam
+                            | voluptatum, id ex ratione omnis reiciendis possimus officiis.
+                        p
+                            | Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi vitae, tenetur quidem eum
+                            | aliquid vel labore sint placeat
+                            | ad deserunt consectetur fugit ullam. Eius unde neque ducimus obcaecati ipsum quos vero totam
+                            | recusandae hic
+                            | expedita nemo sit, illum harum. Quisquam impedit ullam itaque facere et ad molestiae quod
+                            | reprehenderit excepturi!
+    section.section-2.container-fluid.p-0
+        .cover
+            .overlay
+            .content.text-center
+                h1 Some Features That Made Us Unique
+                p
+                    | Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, eum?
+        .container-fluid.text-center
+            .numbers.d-flex.flex-md-row.flex-wrap.justify-content-center
+                .rect
+                    h1 2345
+                    p Happy Client
+                .rect
+                    h1 6784
+                    p Cups Coffee
+                .rect
+                    h1 1056
+                    p Tickets Submitted
+                .rect
+                    h1 9152
+                    p Total Projects
+        .purchase.text-center
+            h1 Purchase Whatever You Want
+            p
+                | Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            .cards
+                .d-flex.flex-row.justify-content-center.flex-wrap
+                    .card
+                        .card-body
+                            .title
+                                h5.card-title PDF
+                            p.card-text
+                                | With supporting text below as a natural lead-in.
+                            .pricing
+                                h1 $77.99
+                                a.btn.btn-dark.px-5.py-2.primary-btn.mb-5(href='#') Purchase Now
+                    .card
+                        .card-body
+                            .title
+                                h5.card-title E-book
+                            p.card-text
+                                | With supporting text below as a natural lead-in.
+                            .pricing
+                                h1 $99.99
+                                a.btn.btn-dark.px-5.py-2.primary-btn.mb-5(href='#') Purchase Now
+                    .card
+                        .card-body
+                            .title
+                                h5.card-title Print Copy
+                            p.card-text
+                                | With supporting text below as a natural lead-in.
+                            .pricing
+                                h1 $58.99
+                                a.btn.btn-dark.px-5.py-2.primary-btn.mb-5(href='#') Purchase Now
+    section.section-3.container-fluid.p-0.text-center
+        .row
+            .col-md-12.col-sm-12
+                h1 Download Our App for all Platform
+                p
+                    | Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum exercitationem alias perspiciatis
+                    | omnis quod possimus odit
+                    | voluptatum! Sunt ea quasi praesentium, tenetur doloribus animi obcaecati, sint nemo quae laudantium
+                    | iusto unde
+                    | eaque nostrum nobis voluptatum
+        .platform.row
+            .col-md-6.col-sm-12.text-right
+                .desktop.shadow-lg
+                    .d-flex.flex-row.justify-content-center
+                        i.fas.fa-desktop.fa-3x.py-2.pr-3
+                        .text.text-left
+                            h3.pt-1.m-0 Desktop
+                            p.p-0.m-0 On website
+            .col-md-6.col-sm-12.text-left
+                .desktop.shadow-lg
+                    .d-flex.flex-row.justify-content-center
+                        i.fas.fa-mobile-alt.fa-3x.py-2.pr-3
+                        .text.text-left
+                            h3.pt-1.m-0 On Mobile
+                            p.p-0.m-0 On Play Store
+    // Section 4
+    section.section-4
+        .container.text-center
+            h1.text-dark What our Reader's Say about us
+            p.text-secondary Lorem ipsum dolor sit amet.
+        .team.row
+            .col-md-4.col-12.text-center
+                .card.mr-2.d-inline-block.shadow-lg
+                    .card-img-top
+                        img.img-fluid.border-radius.p-4(src='assets/img/UI-face-3.jpg', alt='')
+                    .card-body
+                        h3.card-title Blalock Jolene
+                        p.card-text
+                            | Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem recusandae, veniam,
+                            | illo dolor soluta assumenda
+                            | minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis quasi
+                            | voluptas!
+                        a.text-secondary.text-decoration-none(href='#') Go somewhere
+                        p.text-black-50 CEO at Google
+            .col-md-4.col-12
+                #carouselExampleControls.carousel.slide(data-ride='carousel')
+                    .carousel-inner.text-center
+                        .carousel-item.active
+                            .card.mr-2.d-inline-block.shadow
+                                .card-img-top
+                                    img.img-fluid.rounded-circle.w-50.p-4(src='assets/img/UI-face-1.jpg', alt='')
+                                .card-body
+                                    h3.card-title Allen Agnes
+                                    p.card-text
+                                        | Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem
+                                        | recusandae, veniam, illo dolor soluta assumenda
+                                        | minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis
+                                        | quasi voluptas!
+                                    a.text-secondary.text-decoration-none(href='#') Go somewhere
+                                    p.text-black-50 CEO at Google
+                        .carousel-item
+                            .card.d-inline-block.mr-2.shadow
+                                .card-img-top
+                                    img.img-fluid.rounded-circle.w-50.p-4(src='assets/img/UI-face-2.jpg', alt='')
+                                .card-body
+                                    h3.card-title Amiel Barbara
+                                    p.card-text
+                                        | Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem
+                                        | recusandae, veniam, illo dolor soluta assumenda
+                                        | minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis
+                                        | quasi voluptas!
+                                    a.text-secondary.text-decoration-none(href='#') Go somewhere
+                                    p.text-black-50 CEO at Google
+            .col-md-4.col-12.text-center
+                .card.mr-2.d-inline-block.shadow-lg
+                    .card-img-top
+                        img.img-fluid.border-radius.p-4(src='assets/img/UI-face-4.jpg', alt='')
+                    .card-body
+                        h3.card-title Olivia Louis
+                        p.card-text
+                            | Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem recusandae, veniam,
+                            | illo dolor soluta assumenda
+                            | minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis quasi
+                            | voluptas!
+                        a.text-secondary.text-decoration-none(href='#') Go somewhere
+                        p.text-black-50 CEO at Google

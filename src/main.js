@@ -1,3 +1,4 @@
+import 'bootstrap';
 import './main.scss'
 import Someclass from "./js/navigation";
 
