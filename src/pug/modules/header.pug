@@ -1,7 +1,7 @@
 header
     .container.p-0
         nav.navbar.navbar-expand-lg
-            a.navbar-brand(href='#')
+            a.navbar-brand(href='index.html')
                 i.fas.fa-book-reader.fa-2x.mx-3
                 | Books for bucks
             button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarNav', aria-controls='navbarNav', aria-expanded='false', aria-label='Toggle navigation')
@@ -10,32 +10,21 @@ header
                 .mr-auto
                 ul.navbar-nav
                     li.nav-item.active
-                        a.nav-link(href='#')
+                        a.nav-link(href='index.html')
                             | Главная
                             span.sr-only (current)
                     li.nav-item
-                        a.nav-link(href='#') Доставка и оплата
+                        a.nav-link(href='delivery.html') Доставка и оплата
                     li.nav-item.dropdown
                         .dropdown
-                            a.nav-link(href='#') Каталог
+                            a.nav-link(href='catalog.html') Каталог
                             .dropdown-content
-                                a(href='#') Научная
-                                a(href='#') Художественная
-                                a(href='#') Учебная
-                                a(href='#') Техническая
+                                a(href='catalog.html') Научная
+                                a(href='catalog.html') Художественная
+                                a(href='catalog.html') Учебная
+                                a(href='catalog.html') Техническая
                     li.nav-item
-                        a.nav-link(href='#') Адреса магазинов
+                        a.nav-link(href='shop_point.html') Адреса магазинов
                     li.nav-item
-                        a.nav-link(href='#') О нас
-    .container.text-center
-        .row
-            .col-md-7.col-sm-12.text-white
-                h6 Автор: Артур Конан Дойл
-                h1 Приключения Шерлока Холмса: Союз рыжих
-                p
-                    | Рыжеволосый мужчина устраивается на лёгкую и высокооплачиваемую работу благодаря цвету своих волос, но однажды,
-                    | явившись на работу, обнаруживает, что наниматели исчезли в неизвестном направлении. Он просит Холмса разгадать загадку исчезновения щедрых нанимателей.
-                button.btn.btn-light.px-5.py-2.primary-btn
-                    | Купить за 150 р
-            .col-md-5.col-sm-12.h-25
-                img(src='assets/img/header-img.png', alt='Book')
+                        a.nav-link(href='about_us.html') О нас
+    block advertisement

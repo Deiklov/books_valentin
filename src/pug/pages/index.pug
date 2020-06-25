@@ -1,5 +1,6 @@
 extends ../layout/base
-
+block header
+    include ../modules/header_advert
 block main
     section.section-1
         .container.text-center
@@ -78,13 +79,11 @@ block main
     section.section-3.container-fluid.p-0.text-center
         .row
             .col-md-12.col-sm-12
-                h1 Download Our App for all Platform
+                h1 Загрузите наше приложение онлайн
                 p
-                    | Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum exercitationem alias perspiciatis
-                    | omnis quod possimus odit
-                    | voluptatum! Sunt ea quasi praesentium, tenetur doloribus animi obcaecati, sint nemo quae laudantium
-                    | iusto unde
-                    | eaque nostrum nobis voluptatum
+                    | В век информационных технологий, многие используют мобильные телефоны для просмотра сайтов,
+                    | чтобы вам было удобнее, мы разработали мобильные приложения для IOS/Android. Также есть desktop версия
+                    | приложения, в которой заказывать любимые книги еще быстрее и удобнее
         .platform.row
             .col-md-6.col-sm-12.text-right
                 .desktop.shadow-lg
@@ -113,10 +112,7 @@ block main
                     .card-body
                         h3.card-title Дмитрий Белых
                         p.card-text
-                            | Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem recusandae, veniam,
-                            | illo dolor soluta assumenda
-                            | minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis quasi
-                            | voluptas!
+                            | Брал 2 книги в подарок на день рождения, качество отличное, обернули в обложку, угостили кофе. Буду брать еще
                         a.text-secondary.text-decoration-none(href='#') Нижний Новгород, 23 года
                         p.text-black-50 Студент
             .col-md-4.col-12
@@ -129,10 +125,8 @@ block main
                                 .card-body
                                     h3.card-title Адам Смит
                                     p.card-text
-                                        | Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem
-                                        | recusandae, veniam, illo dolor soluta assumenda
-                                        | minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis
-                                        | quasi voluptas!
+                                        | Книги бумажные не читаю, зашел на 5 минут купить газету, был приятно удивлен
+                                        | тем, что есть в наличии электронные книги, взял одну
                                     a.text-secondary.text-decoration-none(href='#') Москва, 20 лет
                                     p.text-black-50 Студент
                         .carousel-item
@@ -142,10 +136,7 @@ block main
                                 .card-body
                                     h3.card-title Марк Березкин
                                     p.card-text
-                                        | Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem
-                                        | recusandae, veniam, illo dolor soluta assumenda
-                                        | minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis
-                                        | quasi voluptas!
+                                        | Регулярно покупаю здесь учебники дочери, качество отличное, всегда есть все в наличии
                                     a.text-secondary.text-decoration-none(href='#') Кстово, 37 лет
                                     p.text-black-50 Повар
             .col-md-4.col-12.text-center
@@ -153,11 +144,9 @@ block main
                     .card-img-top
                         img.img-fluid.border-radius.p-4(src='assets/img/UI-face-4.jpg', alt='')
                     .card-body
-                        h3.card-title Анна абрамова
+                        h3.card-title Анна Абрамова
                         p.card-text
-                            | Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem recusandae, veniam,
-                            | illo dolor soluta assumenda
-                            | minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis quasi
-                            | voluptas!
+                            | Регулярно прихожу на редкими лектронными книгами, которых нет в интернете, выбор огромный
+                            | качество на высотею
                         a.text-secondary.text-decoration-none(href='#') Арзамас, 30 лет
                         p.text-black-50 Программист в Intel
