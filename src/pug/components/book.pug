@@ -1,0 +1,18 @@
+mixin book_template(title,author,description,price,stars,img)
+    .col-md-4
+        .card.mb-4.shadow-sm
+            img.bd-placeholder-img.card-img-top.img-fluid(src=img)
+
+            .card-body
+                p.border.border-secondary  Автор:&nbsp
+                    span.text-success= author
+                p.card-text=description
+                p.text-secondary  Цена&nbsp
+                    span= price
+                    |  руб
+                .d-flex.justify-content-between.align-items-center
+                    .btn-group
+                        button.btn.btn-sm.btn-outline-secondary(type='button') Заказать
+                        button.btn.btn-sm.btn-outline-secondary(type='button') Отзывы
+                    small.text-muted=stars
+                    |  звезд
