@@ -6,7 +6,9 @@ mixin book_template(title,author,description,price,stars,img)
             .card-body
                 p.border.border-secondary  Автор:&nbsp
                     span.text-success= author
-                p.card-text=description
+                p.border.border-secondary  Название:&nbsp
+                    span.text-success= title
+                p.text-monospace.text-left=description
                 p.text-secondary  Цена&nbsp
                     span= price
                     |  руб
@@ -14,5 +16,5 @@ mixin book_template(title,author,description,price,stars,img)
                     .btn-group
                         button.btn.btn-sm.btn-outline-secondary(type='button') Заказать
                         button.btn.btn-sm.btn-outline-secondary(type='button') Отзывы
-                    small.text-muted=stars
-                    |  звезд
+                    small.text-muted.text-left.ml-auto=stars
+                    |  &nbspзвезд
